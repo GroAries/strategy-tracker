@@ -1,0 +1,63 @@
+
+        <html>
+        <head>
+            <title>策略绩效对比报告 - 沪深 300 样本池</title>
+            <style>
+                body { font-family: sans-serif; padding: 20px; background: #f5f5f5; }
+                .container { max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+                h1 { text-align: center; color: #333; }
+                table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+                th, td { padding: 10px; text-align: left; border-bottom: 1px solid #ddd; }
+                th { background-color: #f8f9fa; }
+                .good { color: green; font-weight: bold; }
+                .bad { color: red; font-weight: bold; }
+                .rec { background-color: #e8f5e9; padding: 10px; margin-top: 20px; border-left: 5px solid #4caf50; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>📊 策略绩效对比报告</h1>
+                <p>测试标的：沪深 300 样本池 | 时间周期：2025-10-01 至 2026-04-01</p>
+                
+                <table>
+                    <tr>
+                        <th>策略名称</th>
+                        <th>总收益率</th>
+                        <th>最大回撤</th>
+                        <th>夏普比率</th>
+                        <th>胜率</th>
+                    </tr>
+        
+                    <tr>
+                        <td><b>CATS-A (全天候)</b></td>
+                        <td class="good">12.45%</td>
+                        <td class="bad">4.20%</td>
+                        <td>2.15</td>
+                        <td>58.5%</td>
+                    </tr>
+            
+                    <tr>
+                        <td><b>Oracle (动量)</b></td>
+                        <td class="good">8.30%</td>
+                        <td class="bad">12.50%</td>
+                        <td>1.05</td>
+                        <td>45.2%</td>
+                    </tr>
+            
+                    <tr>
+                        <td><b>裸 K (形态)</b></td>
+                        <td class="good">5.10%</td>
+                        <td class="bad">8.10%</td>
+                        <td>0.85</td>
+                        <td>62.0%</td>
+                    </tr>
+            
+                </table>
+                <div class="rec">
+                    💡 <b>系统建议</b>: 根据本次回测，<b>CATS-A (全天候)</b> 表现最佳。
+                    建议关注其策略参数在当前市场环境下的稳定性。
+                </div>
+            </div>
+        </body>
+        </html>
+        
